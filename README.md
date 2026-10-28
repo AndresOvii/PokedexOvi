@@ -49,6 +49,6 @@ En este documento explico el paso a paso detallado que seguí para crear, verifi
 1. Para organizar mis recursos, me fui al buscador superior y seleccioné **Grupos de recursos**.
 2. Hice clic en **+ Crear**.
 3. Seleccioné mi suscripción `Azure for Students`.
-4. Asigné el nombre `rg-pokedex` para mi grupo de recursos.
+4. Asigné el nombre `rg-pokedex-prod` para mi grupo de recursos.
 5. Elegí la región `Brazil South`.
 6. Hice clic en **Revisar y crear** y luego en **Crear** para confirmar.

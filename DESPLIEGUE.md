@@ -132,13 +132,6 @@ export const environment = {
 
 Comprimí en un archivo `.zip` los archivos generados dentro de mi carpeta `dist/pokedex-angular/` (incluyendo mi `index.html`,  `web.config` y la carpeta `assets`) y ejecuté el despliegue a través de el apartado herramientas de desarrollo, herramientas avanzadas, presione ir, luego me dirigí a debug console, cmd, luego a tools, zip push deploy y monte el zip comprimido en el espacio libre.
 
-Bash
-
-```
-az webapp deploy --resource-group rg-pokedex-prod --name pokedexovi --src-path dist/pokedex-angular.zip --type zip
-
-```
-
 ## 5. Verificación de Seguridad y Escaneo (Nota A)
 
 1.  Obtuve la URL pública otorgada por Azure:  `https://pokedexovi-g0bverg3b8gvbwf3.brazilsouth-01.azurewebsites.net/`.
@@ -148,5 +141,3 @@ az webapp deploy --resource-group rg-pokedex-prod --name pokedexovi --src-path d
 3.  Pegué mi URL pública y ejecuté el escaneo (**Scan**).
     
 4.  **Resultado obtenido:** Verifiqué con éxito la nota **A**, confirmando que mis cabeceras HTTP de seguridad declaradas en mi `web.config` fueron procesadas y aplicadas de forma correcta por IIS.
-
-
