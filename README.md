@@ -5,7 +5,6 @@ En este documento explico el paso a paso detallado que seguí para crear, verifi
 ## Prerrequisitos que utilicé
 
 - Mi correo electrónico institucional académico.
-- Mi cuenta de Microsoft.
 - Mi dispositivo móvil para la verificación mediante SMS.
 - Conexión a internet estable.
 
