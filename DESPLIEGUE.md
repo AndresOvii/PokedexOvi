@@ -27,7 +27,7 @@ Ubiqué mi archivo de políticas de seguridad y enrutamiento para Single Page Ap
 
     <httpProtocol>
       <customHeaders>
-        <!-- Security Headers para A+ -->
+        <!-- Security Headers para A -->
         <add name="Strict-Transport-Security" value="max-age=31536000; includeSubDomains; preload" />
         <add name="X-Frame-Options" value="DENY" />
         <add name="X-Content-Type-Options" value="nosniff" />
